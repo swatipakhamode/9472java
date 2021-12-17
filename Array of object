@@ -1,0 +1,17 @@
+public class Program {
+public static void main(String[] args) {
+Object[] elements = new Object[4];
+elements[0] = "dog";
+elements[1] = 70;
+elements[2] = new StringBuilder("bcd");
+elements[3] = 6;
+for (Object e : elements) {
+System.out.println(e);
+}
+}
+}
+Output:
+dog
+70
+bcd
+6
