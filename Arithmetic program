@@ -1,0 +1,24 @@
+public class Main {
+	public static void main(String[] args) {
+		int a=56;
+		int b=4;
+		System.out.println("Add a and b"+(a+b));
+		
+		System.out.println("Suba and b"+(a-b));
+		
+		System.out.println("Multi a and b"+(a*b));
+		
+		System.out.println("Div a and b"+(a/b));
+		
+		System.out.println("Per a and b"+(a%b));
+		
+	}
+}
+
+output
+Add a and b60
+Suba and b52
+Multi a and b224
+Div a and b14
+Per a and b0
+
