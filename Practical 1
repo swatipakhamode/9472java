@@ -1,0 +1,18 @@
+public class ThrowDemo1{
+static void validate(int age){
+if(age<24)
+throw new ArithmeticException("not valid");
+else
+System.out.println("welcome to the club");
+}
+public static void main(String args[]){
+validate(17);
+System.out.println("code remainder");
+}
+}
+
+output
+Exception in thread "main" java.lang.ArithmeticException: not valid
+        at ThrowDemo1.validate(ThrowDemo1.java:4)
+        at ThrowDemo1.main(ThrowDemo1.java:9)
+
