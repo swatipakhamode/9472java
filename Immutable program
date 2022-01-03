@@ -1,0 +1,20 @@
+package hello1;
+public final class ImmutableDemo {
+private String name;
+ImmutableDemo (String name) {
+this.name = name;
+}
+public String getName() {
+return name;
+}
+public static void main(String[] args) {
+ImmutableDemo obj = new ImmutableDemo("hello");
+System.out.println(obj.getName());
+//Obj.setName("new hello");
+System.out.println(obj.getName());
+}
+}
+output 
+hello
+hello
+
